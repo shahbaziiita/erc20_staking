@@ -4,7 +4,7 @@ pragma solidity ^0.8.7;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract PestoToken is ERC20 {
-    constructor() ERC20("Pesto Token", "PESTO") {
+    constructor() ERC20("PestoToken", "PESTO") {
         _mint(msg.sender, 1000000 * 10**18);
     }
 }
